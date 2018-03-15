@@ -188,11 +188,12 @@
 							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release.497194088.2004018453" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release.497194088"/>
 							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.release.1350534933.1513897840" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.release.1350534933"/>
 							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release.1367138379.1263828516" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release.1367138379"/>
+							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.release" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.release"/>
 							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.release.1457669994" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.release.540499321">
 								<inputType id="de.innot.avreclipse.tool.assembler.input.2127163161" superClass="de.innot.avreclipse.tool.assembler.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.release.1513661120" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.release.2070567747">
-								<option id="de.innot.avreclipse.compiler.option.def.616395033" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
+								<option id="de.innot.avreclipse.compiler.option.def.616395033" name="Define Syms (-D)" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="BOARD=USER_BOARD"/>
 									<listOptionValue builtIn="false" value="IOPORT_XMEGA_COMPAT"/>
 									<listOptionValue builtIn="false" value="BOARD_ACROSTATION_V2R05"/>
@@ -200,7 +201,7 @@
 									<listOptionValue builtIn="false" value="__AVR_ATxmega256A3BU__=1"/>
 									<listOptionValue builtIn="false" value="__AVR_DEVICE_NAME__=atxmega256a3bu"/>
 								</option>
-								<option id="de.innot.avreclipse.compiler.option.undef.1205338196" superClass="de.innot.avreclipse.compiler.option.undef" valueType="undefDefinedSymbols">
+								<option id="de.innot.avreclipse.compiler.option.undef.1205338196" name="Undefine Syms (-U)" superClass="de.innot.avreclipse.compiler.option.undef" valueType="undefDefinedSymbols">
 									<listOptionValue builtIn="false" value="__AVR_ATxmega256A3U__"/>
 									<listOptionValue builtIn="false" value="__AVR_DEVICE_NAME__"/>
 								</option>
@@ -350,6 +351,7 @@
 							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release.493568067.1540131826" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release.493568067"/>
 							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.release.71384160.1457999506" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.release.71384160"/>
 							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release.928938058.1301938526" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release.928938058"/>
+							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.release" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.release"/>
 							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.release.1946380697" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.release.992299432">
 								<inputType id="de.innot.avreclipse.tool.assembler.input.1339712296" superClass="de.innot.avreclipse.tool.assembler.input"/>
 							</tool>
@@ -502,9 +504,11 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="R_V2R5_LOG_CAPOFIUME"/>
 		<configuration configurationName="Multiple configurations">
 			<resource resourceType="PROJECT" workspacePath="/PZero"/>
 		</configuration>
+		<configuration configurationName="R_V4R1_LOG_MAGLIOTTO"/>
 		<configuration configurationName="R_V2R5_LOG_MONESI">
 			<resource resourceType="PROJECT" workspacePath="/PZero"/>
 		</configuration>
