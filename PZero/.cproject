@@ -307,11 +307,13 @@
                                 								
                                 <option id="de.innot.avreclipse.compiler.option.optimize.other.595553620" name="Other Optimization Flags" superClass="de.innot.avreclipse.compiler.option.optimize.other" useByScannerDiscovery="false" value="-fdata-sections" valueType="string"/>
                                 								
-                                <option id="de.innot.avreclipse.compiler.option.undef.636437313" name="Undefine Syms (-U)" superClass="de.innot.avreclipse.compiler.option.undef" valueType="undefDefinedSymbols">
+                                <option id="de.innot.avreclipse.compiler.option.undef.636437313" name="Undefine Syms (-U)" superClass="de.innot.avreclipse.compiler.option.undef" useByScannerDiscovery="false" valueType="undefDefinedSymbols">
                                     									
                                     <listOptionValue builtIn="false" value="__AVR_ATxmega256A3U__"/>
                                     								
                                 </option>
+                                								
+                                <option id="de.innot.avreclipse.compiler.option.otherflags.83053749" name="Other flags" superClass="de.innot.avreclipse.compiler.option.otherflags" useByScannerDiscovery="false" value="-fno-strict-aliasing -Wpointer-arith -mrelax" valueType="string"/>
                                 								
                                 <inputType id="de.innot.avreclipse.compiler.winavr.input.1773961872" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
                                 							
@@ -333,7 +335,7 @@
                                     								
                                 </option>
                                 								
-                                <option id="de.innot.avreclipse.linker.option.otherlinkargs.1694618137" name="Other Arguments" superClass="de.innot.avreclipse.linker.option.otherlinkargs" useByScannerDiscovery="false" value="-Wl,--gc-sections" valueType="string"/>
+                                <option id="de.innot.avreclipse.linker.option.otherlinkargs.1694618137" name="Other Arguments" superClass="de.innot.avreclipse.linker.option.otherlinkargs" useByScannerDiscovery="false" value="-Wl,--gc-sections -Wl,--relax" valueType="string"/>
                                 								
                                 <inputType id="de.innot.avreclipse.tool.linker.input.737176357" name="OBJ Files" superClass="de.innot.avreclipse.tool.linker.input">
                                     									
